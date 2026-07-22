@@ -1,0 +1,50 @@
+{
+  "bookSourceComment": "//by gamesofts",
+  "bookSourceName": "速读谷",
+  "bookSourceType": 0,
+  "bookSourceUrl": "https://www.sudugu.org",
+  "bookUrlPattern": "https://www.sudugu.org/\\d+/",
+  "concurrentRate": "20/60000",
+  "customButton": false,
+  "customOrder": 11,
+  "enabled": true,
+  "enabledCookieJar": false,
+  "enabledExplore": true,
+  "eventListener": false,
+  "exploreUrl": "@js:\nvar inputData = `榜单\n排行榜::/paihang/{{page}}.html\n完结小说::/wanjie/{{page}}.html\n小说分类\n都市小说::/dushi/{{page}}.html\n玄幻小说::/xuanhuan/{{page}}.html\n轻小说::/qing/{{page}}.html\n仙侠小说::/xianxia/{{page}}.html\n历史小说::/lishi/{{page}}.html\n科幻小说::/kehuan/{{page}}.html\n诸天无限::/zhutianwuxian/{{page}}.html\n游戏小说::/youxi/{{page}}.html\n奇幻小说::/qihuan/{{page}}.html\n悬疑小说::/xuanyi/{{page}}.html\n体育小说::/tiyu/{{page}}.html\n官场小说::/guanchang/{{page}}.html\n军事小说::/junshi/{{page}}.html\n武侠小说::/wuxia/{{page}}.html\n乡村小说::/xiangcun/{{page}}.html\n现实小说::/xianshi/{{page}}.html\n言情小说::/yanqing/{{page}}.html`;\n\nvar categories = [];\nvar lines = inputData.split('\\n').filter(l => l.trim());\n\nfor (var i = 0; i < lines.length; i++) {\n    var parts = lines[i].split('::');\n    var title = parts[0] || \"\";\n    var url = (parts[1] || \"\").trim();\n\n    categories.push({\n        \"title\": title,\n        \"url\": url,\n        \"style\": {\n            \"layout_flexGrow\": 1,\n            \"layout_flexBasisPercent\": url ? 0.25 : 1\n        }\n    });\n}\n\nJSON.stringify(categories);",
+  "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
+  "lastUpdateTime": 1784705915827,
+  "respondTime": 8467,
+  "ruleBookInfo": {
+    "author": ".itemtxt p.1@text##作者：",
+    "coverUrl": ".item img@src",
+    "intro": ".des.0@text",
+    "kind": ".itemtxt span@text",
+    "lastChapter": ".itemtxt li.0@text",
+    "name": "h1 a@text",
+    "wordCount": "h1 i@text"
+  },
+  "ruleContent": {
+    "content": ".con@html",
+    "nextContentUrl": "text.下一页@href",
+    "replaceRegex": "##{{chapter.title}}.*|\\(本章完\\)|最⊥新⊥.*|必.+搜.+日.+最.*\n@js:\nvar r = result\nr=r.replace(/「/gi,'“')\n.replace(/」/gi,'”')"
+  },
+  "ruleExplore": [],
+  "ruleSearch": {
+    "author": "a.2@text##作者：",
+    "bookList": ".item",
+    "bookUrl": "a.1@href",
+    "coverUrl": "img@src",
+    "kind": "span@text",
+    "lastChapter": "li.0@text",
+    "name": "h3@text"
+  },
+  "ruleToc": {
+    "chapterList": "<js>\nvar html = String(result);\nvar root = String(baseUrl).replace(/#.*$/, '').replace(/p-\\d+\\.html$/, '');\nif (root.charAt(root.length - 1) !== '/') root += '/';\nvar maxPage = 1, m;\nvar pageRe = /<option[^>]+value=[\"'](\\d+)[\"'][^>]*>/gi;\nwhile ((m = pageRe.exec(html)) !== null) {\n    var pageNo = parseInt(m[1], 10);\n    if (pageNo > maxPage) maxPage = pageNo;\n}\nvar extra = '';\nfor (var page = 2; page <= maxPage; page++) {\n    var more = java.ajax(root + 'p-' + page + '.html');\n    if (more) {\n        var part = String(more).match(/<div[^>]+id=[\"']list[\"'][^>]*>[\\s\\S]*?<ul[^>]*>([\\s\\S]*?)<\\/ul>/i);\n        if (part) extra += part[1];\n    }\n}\nif (extra) {\n    var listStart = html.search(/<div[^>]+id=[\"']list[\"'][^>]*>/i);\n    var listEnd = html.indexOf('</ul>', listStart);\n    if (listEnd >= 0) html = html.slice(0, listEnd) + extra + html.slice(listEnd);\n}\nhtml;\n</js>\n@CSS:#list li a",
+    "chapterName": "text##[\\(\\{（｛【].*[首为求更谢乐发推票章盟第补合感订加字KkWw\\/].*[\\)\\}）｝】]",
+    "chapterUrl": "href",
+    "nextTocUrl": ""
+  },
+  "searchUrl": "/i/sor.aspx?key={{key}}",
+  "weight": 0
+}
