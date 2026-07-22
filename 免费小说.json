@@ -1,0 +1,51 @@
+{
+  "bookSourceComment": "//by gamesofts",
+  "bookSourceName": "免费小说",
+  "bookSourceType": 0,
+  "bookSourceUrl": "https://cn.zhys.tw",
+  "customButton": false,
+  "customOrder": 2,
+  "enabled": true,
+  "enabledCookieJar": true,
+  "enabledExplore": true,
+  "eventListener": false,
+  "exploreUrl": "@js:\nvar result=[];\nvar push=function(t,u,s){result.push({title:t,url:u,style:{layout_flexGrow:1,layout_flexBasisPercent:s}})};\nvar addGroup=function(title,start,names,size){\n  push(title,null,1);\n  names.forEach(function(name,i){push(name,'/rank/'+(start+i)+'?page={{page}}',size)});\n};\npush('小说分类',null,1);\n[\n  ['豪门','/haomenzongcai?page={{page}}'],\n  ['悬疑','/xuanyilingyi?page={{page}}'],\n  ['青春','/langmanqingchun?page={{page}}'],\n  ['玄幻','/xianxiaxuanhuan?page={{page}}'],\n  ['架空','/chuanyuejiakong?page={{page}}'],\n  ['异能','/dushiyineng?page={{page}}'],\n  ['都市','/dushiyanqing?page={{page}}'],\n  ['现代','/xianyan?page={{page}}'],\n  ['古代','/guyan?page={{page}}']\n].forEach(function(c){push(c[0],c[1],0.25)});\naddGroup('女频新书榜',57,['古风世情','科幻末世','游戏体育','女频衍生','玄幻言情','种田','年代','现言脑洞','宫斗宅斗','悬疑脑洞','古言脑洞','快穿','青春甜宠','星光璀璨','女频悬疑','职场婚恋','豪门总裁','民国言情'],0.33);\naddGroup('女频阅读榜',39,['古风世情','科幻末世','游戏体育','女频衍生','玄幻言情','种田','年代','现言脑洞','宫斗宅斗','悬疑脑洞','古言脑洞','快穿','青春甜宠','星光璀璨','女频悬疑','职场婚恋','豪门总裁','民国言情'],0.33);\naddGroup('男频新书榜',20,['西方奇幻','东方仙侠','科幻末世','都市日常','都市修真','都市高武','历史古代','战神赘婿','都市种田','传统玄幻','历史脑洞','悬疑脑洞','都市脑洞','玄幻脑洞','悬疑灵异','抗战谍战','游戏体育','动漫衍生','男频衍生'],0.33);\naddGroup('男频阅读榜',1,['西方奇幻','东方仙侠','科幻末世','都市日常','都市修真','都市高武','历史古代','战神赘婿','都市种田','传统玄幻','历史脑洞','悬疑脑洞','都市脑洞','玄幻脑洞','悬疑灵异','抗战谍战','游戏体育','动漫衍生','男频衍生'],0.33);\nJSON.stringify(result);",
+  "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 12; SM-G9810) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36\"}",
+  "lastUpdateTime": "1784716913319",
+  "respondTime": 7429,
+  "ruleBookInfo": {
+    "author": "a[href*='/author/']@text",
+    "coverUrl": "figure img@src||img@src",
+    "intro": "div[itemprop='description']@text",
+    "kind": "ol li:nth-child(3) a@text",
+    "lastChapter": "@CSS:section:has(h2:contains(最新更新章节)) a:eq(0)@text",
+    "name": "h1@text",
+    "wordCount": "span:contains('万字')@text"
+  },
+  "ruleContent": {
+    "content": "#article-content@html",
+    "replaceRegex": "##<p>\\s*第\\d+章\\s+.*?</p>||请收藏本站.*|.*记住本站域名.*|.*免费小说.*"
+  },
+  "ruleExplore": {
+    "author": "p[itemprop='author']@text##\\|.*||a[href*='/author/']@text",
+    "bookList": "li[itemprop='mainEntity']||section ul li:has(a[href*='/book/'])",
+    "bookUrl": "a[itemprop='url']@href||a[href*='/book/']@href",
+    "coverUrl": "img[itemprop='image']@src||img@src",
+    "name": "h2[itemprop='name']@text||a[href*='/book/']@text"
+  },
+  "ruleSearch": {
+    "author": "p[itemprop='author']@text",
+    "bookList": "li[itemprop='mainEntity']",
+    "bookUrl": "a[itemprop='url']@href",
+    "coverUrl": "img[itemprop='image']@src",
+    "kind": "span[itemprop='genre']@text",
+    "name": "h2[itemprop='name']@text"
+  },
+  "ruleToc": {
+    "chapterList": "#full-catalog a[href*='/read/']",
+    "chapterName": "text##上次阅读",
+    "chapterUrl": "href"
+  },
+  "searchUrl": "/search?q={{key}}&page={{page}}",
+  "weight": 0
+}
