@@ -1,57 +1,55 @@
-[
-  {
-    "bookSourceComment": "//by gamesofts",
-    "bookSourceGroup": "",
-    "bookSourceName": "番茄书源",
-    "bookSourceType": 0,
-    "bookSourceUrl": "https://novel.cooks.tw",
-    "bookUrlPattern": "https?:\\/\\/novel\\.cooks\\.tw\\/api\\/novel\\/detail\\/\\d+.*",
-    "customButton": false,
-    "customOrder": 19,
-    "enabled": true,
-    "enabledCookieJar": false,
-    "enabledExplore": true,
-    "eventListener": false,
-    "exploreUrl": "[\n  {\"title\":\"男频\",\"url\":null,\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1,\"layout_wrapBefore\":true}},\n  {\"title\":\"西方奇幻\",\"url\":\"https://novel.cooks.tw/api/novel/list?sortid=1&page={{page}}&limit=20&lang=zh-CN\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.33}},\n  {\"title\":\"东方仙侠\",\"url\":\"https://novel.cooks.tw/api/novel/list?sortid=2&page={{page}}&limit=20&lang=zh-CN\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.33}},\n  {\"title\":\"科幻末世\",\"url\":\"https://novel.cooks.tw/api/novel/list?sortid=3&page={{page}}&limit=20&lang=zh-CN\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.33}},\n  {\"title\":\"都市日常\",\"url\":\"https://novel.cooks.tw/api/novel/list?sortid=4&page={{page}}&limit=20&lang=zh-CN\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.33}},\n  {\"title\":\"都市修真\",\"url\":\"https://novel.cooks.tw/api/novel/list?sortid=5&page={{page}}&limit=20&lang=zh-CN\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.33}},\n  {\"title\":\"都市高武\",\"url\":\"https://novel.cooks.tw/api/novel/list?sortid=6&page={{page}}&limit=20&lang=zh-CN\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.33}},\n  {\"title\":\"历史古代\",\"url\":\"https://novel.cooks.tw/api/novel/list?sortid=7&page={{page}}&limit=20&lang=zh-CN\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.33}},\n  {\"title\":\"战神赘婿\",\"url\":\"https://novel.cooks.tw/api/novel/list?sortid=8&page={{page}}&limit=20&lang=zh-CN\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.33}},\n  {\"title\":\"都市种田\",\"url\":\"https://novel.cooks.tw/api/novel/list?sortid=9&page={{page}}&limit=20&lang=zh-CN\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.33}},\n  {\"title\":\"传统玄幻\",\"url\":\"https://novel.cooks.tw/api/novel/list?sortid=10&page={{page}}&limit=20&lang=zh-CN\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.33}},\n  {\"title\":\"历史脑洞\",\"url\":\"https://novel.cooks.tw/api/novel/list?sortid=11&page={{page}}&limit=20&lang=zh-CN\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.33}},\n  {\"title\":\"悬疑脑洞\",\"url\":\"https://novel.cooks.tw/api/novel/list?sortid=12&page={{page}}&limit=20&lang=zh-CN\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.33}},\n  {\"title\":\"都市脑洞\",\"url\":\"https://novel.cooks.tw/api/novel/list?sortid=13&page={{page}}&limit=20&lang=zh-CN\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.33}},\n  {\"title\":\"玄幻脑洞\",\"url\":\"https://novel.cooks.tw/api/novel/list?sortid=14&page={{page}}&limit=20&lang=zh-CN\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.33}},\n  {\"title\":\"悬疑灵异\",\"url\":\"https://novel.cooks.tw/api/novel/list?sortid=15&page={{page}}&limit=20&lang=zh-CN\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.33}},\n  {\"title\":\"抗战谍战\",\"url\":\"https://novel.cooks.tw/api/novel/list?sortid=16&page={{page}}&limit=20&lang=zh-CN\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.33}},\n  {\"title\":\"游戏体育\",\"url\":\"https://novel.cooks.tw/api/novel/list?sortid=17&page={{page}}&limit=20&lang=zh-CN\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.33}},\n  {\"title\":\"动漫衍生\",\"url\":\"https://novel.cooks.tw/api/novel/list?sortid=18&page={{page}}&limit=20&lang=zh-CN\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.33}},\n  {\"title\":\"衍生\",\"url\":\"https://novel.cooks.tw/api/novel/list?sortid=19&page={{page}}&limit=20&lang=zh-CN\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.33}},\n  {\"title\":\"女频\",\"url\":null,\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1,\"layout_wrapBefore\":true}},\n  {\"title\":\"古风世情\",\"url\":\"https://novel.cooks.tw/api/novel/list?sortid=20&page={{page}}&limit=20&lang=zh-CN\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.33}},\n  {\"title\":\"衍生\",\"url\":\"https://novel.cooks.tw/api/novel/list?sortid=21&page={{page}}&limit=20&lang=zh-CN\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.33}},\n  {\"title\":\"玄幻言情\",\"url\":\"https://novel.cooks.tw/api/novel/list?sortid=22&page={{page}}&limit=20&lang=zh-CN\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.33}},\n  {\"title\":\"种田\",\"url\":\"https://novel.cooks.tw/api/novel/list?sortid=23&page={{page}}&limit=20&lang=zh-CN\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.33}},\n  {\"title\":\"年代\",\"url\":\"https://novel.cooks.tw/api/novel/list?sortid=24&page={{page}}&limit=20&lang=zh-CN\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.33}},\n  {\"title\":\"现言脑洞\",\"url\":\"https://novel.cooks.tw/api/novel/list?sortid=25&page={{page}}&limit=20&lang=zh-CN\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.33}},\n  {\"title\":\"宫斗宅斗\",\"url\":\"https://novel.cooks.tw/api/novel/list?sortid=26&page={{page}}&limit=20&lang=zh-CN\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.33}},\n  {\"title\":\"古言脑洞\",\"url\":\"https://novel.cooks.tw/api/novel/list?sortid=27&page={{page}}&limit=20&lang=zh-CN\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.33}},\n  {\"title\":\"快穿\",\"url\":\"https://novel.cooks.tw/api/novel/list?sortid=28&page={{page}}&limit=20&lang=zh-CN\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.33}},\n  {\"title\":\"青春甜宠\",\"url\":\"https://novel.cooks.tw/api/novel/list?sortid=29&page={{page}}&limit=20&lang=zh-CN\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.33}},\n  {\"title\":\"星光璀璨\",\"url\":\"https://novel.cooks.tw/api/novel/list?sortid=30&page={{page}}&limit=20&lang=zh-CN\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.33}},\n  {\"title\":\"悬疑\",\"url\":\"https://novel.cooks.tw/api/novel/list?sortid=31&page={{page}}&limit=20&lang=zh-CN\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.33}},\n  {\"title\":\"职场婚恋\",\"url\":\"https://novel.cooks.tw/api/novel/list?sortid=32&page={{page}}&limit=20&lang=zh-CN\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.33}},\n  {\"title\":\"豪门总裁\",\"url\":\"https://novel.cooks.tw/api/novel/list?sortid=33&page={{page}}&limit=20&lang=zh-CN\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.33}},\n  {\"title\":\"民国言情\",\"url\":\"https://novel.cooks.tw/api/novel/list?sortid=34&page={{page}}&limit=20&lang=zh-CN\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.33}}\n]",
-    "header": "{\"User-Agent\":\"Mozilla/5.0 (Linux; Android 12; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36\",\"Accept\":\"application/json, text/plain, */*\",\"Accept-Language\":\"zh-CN,zh;q=0.9\",\"Referer\":\"https://novel.cooks.tw/\"}",
-    "lastUpdateTime": 1784780400000,
-    "respondTime": 180000,
-    "ruleBookInfo": {
-      "author": "$.data.author",
-      "coverUrl": "$.data.articleid\n<js>var id=String(result||'').replace(/\\D/g,'');id?'https://pic.cooks.tw/'+Math.floor(parseInt(id,10)/1000)+'/'+id+'/'+id+'s.webp':'';</js>",
-      "intro": "$.data.intro",
-      "kind": "$.data.tag_list[*].keyword",
-      "lastChapter": "$.data.lastchapter",
-      "name": "$.data.articlename",
-      "status": "$.data.fullflag\n<js>String(result)=='1'?'完结':'连载';</js>",
-      "tocUrl": "$.data.articleid\n<js>'https://novel.cooks.tw/api/chapter/list/'+result+'?lang=zh-CN';</js>"
-    },
-    "ruleContent": {
-      "content": "$.data.content\n<js>String(result||'').replace(/<br\\s*\\/?>/gi,'\\n').replace(/<p[^>]*>/gi,'\\n').replace(/<\\/p>/gi,'\\n').replace(/<[^>]+>/g,'').replace(/&nbsp;/g,' ').replace(/&amp;/g,'&').replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&#39;/g,\"'\").replace(/&quot;/g,'\"').replace(/\\r/g,'').replace(/[ \\t]+\\n/g,'\\n').replace(/\\n{3,}/g,'\\n\\n').trim();</js>"
-    },
-    "ruleExplore": {
-      "author": "$.author",
-      "bookList": "$.data.data[*]",
-      "bookUrl": "$.articleid\n<js>'https://novel.cooks.tw/api/novel/detail/'+result+'?lang=zh-CN';</js>",
-      "coverUrl": "$.articleid\n<js>var id=String(result||'').replace(/\\D/g,'');id?'https://pic.cooks.tw/'+Math.floor(parseInt(id,10)/1000)+'/'+id+'/'+id+'s.webp':'';</js>",
-      "intro": "$.intro",
-      "name": "$.articlename"
-    },
-    "ruleSearch": {
-      "author": "$.author",
-      "bookList": "$.data.items[*]",
-      "bookUrl": "$.articleid\n<js>'https://novel.cooks.tw/api/novel/detail/'+result+'?lang=zh-CN';</js>",
-      "coverUrl": "$.articleid\n<js>var id=String(result||'').replace(/\\D/g,'');id?'https://pic.cooks.tw/'+Math.floor(parseInt(id,10)/1000)+'/'+id+'/'+id+'s.webp':'';</js>",
-      "intro": "$.intro",
-      "kind": "$.chapters\n<js>result?'共 '+result+' 章':'';</js>",
-      "name": "$.articlename"
-    },
-    "ruleToc": {
-      "chapterList": "$.data[*]",
-      "chapterName": "$.chaptername",
-      "chapterUrl": "$.chapterid\n<js>var m=String(baseUrl||'').match(/list\\/(\\d+)/);var aid=m?m[1]:'';'https://novel.cooks.tw/api/chapter/content/'+aid+'/'+result+'?lang=zh-CN';</js>"
-    },
-    "searchUrl": "https://novel.cooks.tw/api/novel/search?q={{encodeURIComponent(key)}}&page={{page}}&limit=20&lang=zh-CN,{\"retry\":2,\"timeout\":45000}",
-    "weight": 0
-  }
-]
+{
+  "bookSourceComment": "//by gamesofts",
+  "bookSourceGroup": "",
+  "bookSourceName": "番茄书源",
+  "bookSourceType": 0,
+  "bookSourceUrl": "https://novel.cooks.tw",
+  "bookUrlPattern": "https?:\\/\\/novel\\.cooks\\.tw\\/api\\/novel\\/detail\\/\\d+.*",
+  "customButton": false,
+  "customOrder": 19,
+  "enabled": true,
+  "enabledCookieJar": false,
+  "enabledExplore": true,
+  "eventListener": false,
+  "exploreUrl": "[\n  {\"title\":\"男频\",\"url\":null,\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1,\"layout_wrapBefore\":true}},\n  {\"title\":\"西方奇幻\",\"url\":\"https://novel.cooks.tw/api/novel/list?sortid=1&page={{page}}&limit=20&lang=zh-CN\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.33}},\n  {\"title\":\"东方仙侠\",\"url\":\"https://novel.cooks.tw/api/novel/list?sortid=2&page={{page}}&limit=20&lang=zh-CN\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.33}},\n  {\"title\":\"科幻末世\",\"url\":\"https://novel.cooks.tw/api/novel/list?sortid=3&page={{page}}&limit=20&lang=zh-CN\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.33}},\n  {\"title\":\"都市日常\",\"url\":\"https://novel.cooks.tw/api/novel/list?sortid=4&page={{page}}&limit=20&lang=zh-CN\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.33}},\n  {\"title\":\"都市修真\",\"url\":\"https://novel.cooks.tw/api/novel/list?sortid=5&page={{page}}&limit=20&lang=zh-CN\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.33}},\n  {\"title\":\"都市高武\",\"url\":\"https://novel.cooks.tw/api/novel/list?sortid=6&page={{page}}&limit=20&lang=zh-CN\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.33}},\n  {\"title\":\"历史古代\",\"url\":\"https://novel.cooks.tw/api/novel/list?sortid=7&page={{page}}&limit=20&lang=zh-CN\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.33}},\n  {\"title\":\"战神赘婿\",\"url\":\"https://novel.cooks.tw/api/novel/list?sortid=8&page={{page}}&limit=20&lang=zh-CN\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.33}},\n  {\"title\":\"都市种田\",\"url\":\"https://novel.cooks.tw/api/novel/list?sortid=9&page={{page}}&limit=20&lang=zh-CN\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.33}},\n  {\"title\":\"传统玄幻\",\"url\":\"https://novel.cooks.tw/api/novel/list?sortid=10&page={{page}}&limit=20&lang=zh-CN\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.33}},\n  {\"title\":\"历史脑洞\",\"url\":\"https://novel.cooks.tw/api/novel/list?sortid=11&page={{page}}&limit=20&lang=zh-CN\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.33}},\n  {\"title\":\"悬疑脑洞\",\"url\":\"https://novel.cooks.tw/api/novel/list?sortid=12&page={{page}}&limit=20&lang=zh-CN\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.33}},\n  {\"title\":\"都市脑洞\",\"url\":\"https://novel.cooks.tw/api/novel/list?sortid=13&page={{page}}&limit=20&lang=zh-CN\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.33}},\n  {\"title\":\"玄幻脑洞\",\"url\":\"https://novel.cooks.tw/api/novel/list?sortid=14&page={{page}}&limit=20&lang=zh-CN\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.33}},\n  {\"title\":\"悬疑灵异\",\"url\":\"https://novel.cooks.tw/api/novel/list?sortid=15&page={{page}}&limit=20&lang=zh-CN\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.33}},\n  {\"title\":\"抗战谍战\",\"url\":\"https://novel.cooks.tw/api/novel/list?sortid=16&page={{page}}&limit=20&lang=zh-CN\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.33}},\n  {\"title\":\"游戏体育\",\"url\":\"https://novel.cooks.tw/api/novel/list?sortid=17&page={{page}}&limit=20&lang=zh-CN\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.33}},\n  {\"title\":\"动漫衍生\",\"url\":\"https://novel.cooks.tw/api/novel/list?sortid=18&page={{page}}&limit=20&lang=zh-CN\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.33}},\n  {\"title\":\"衍生\",\"url\":\"https://novel.cooks.tw/api/novel/list?sortid=19&page={{page}}&limit=20&lang=zh-CN\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.33}},\n  {\"title\":\"女频\",\"url\":null,\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1,\"layout_wrapBefore\":true}},\n  {\"title\":\"古风世情\",\"url\":\"https://novel.cooks.tw/api/novel/list?sortid=20&page={{page}}&limit=20&lang=zh-CN\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.33}},\n  {\"title\":\"衍生\",\"url\":\"https://novel.cooks.tw/api/novel/list?sortid=21&page={{page}}&limit=20&lang=zh-CN\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.33}},\n  {\"title\":\"玄幻言情\",\"url\":\"https://novel.cooks.tw/api/novel/list?sortid=22&page={{page}}&limit=20&lang=zh-CN\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.33}},\n  {\"title\":\"种田\",\"url\":\"https://novel.cooks.tw/api/novel/list?sortid=23&page={{page}}&limit=20&lang=zh-CN\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.33}},\n  {\"title\":\"年代\",\"url\":\"https://novel.cooks.tw/api/novel/list?sortid=24&page={{page}}&limit=20&lang=zh-CN\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.33}},\n  {\"title\":\"现言脑洞\",\"url\":\"https://novel.cooks.tw/api/novel/list?sortid=25&page={{page}}&limit=20&lang=zh-CN\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.33}},\n  {\"title\":\"宫斗宅斗\",\"url\":\"https://novel.cooks.tw/api/novel/list?sortid=26&page={{page}}&limit=20&lang=zh-CN\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.33}},\n  {\"title\":\"古言脑洞\",\"url\":\"https://novel.cooks.tw/api/novel/list?sortid=27&page={{page}}&limit=20&lang=zh-CN\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.33}},\n  {\"title\":\"快穿\",\"url\":\"https://novel.cooks.tw/api/novel/list?sortid=28&page={{page}}&limit=20&lang=zh-CN\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.33}},\n  {\"title\":\"青春甜宠\",\"url\":\"https://novel.cooks.tw/api/novel/list?sortid=29&page={{page}}&limit=20&lang=zh-CN\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.33}},\n  {\"title\":\"星光璀璨\",\"url\":\"https://novel.cooks.tw/api/novel/list?sortid=30&page={{page}}&limit=20&lang=zh-CN\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.33}},\n  {\"title\":\"悬疑\",\"url\":\"https://novel.cooks.tw/api/novel/list?sortid=31&page={{page}}&limit=20&lang=zh-CN\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.33}},\n  {\"title\":\"职场婚恋\",\"url\":\"https://novel.cooks.tw/api/novel/list?sortid=32&page={{page}}&limit=20&lang=zh-CN\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.33}},\n  {\"title\":\"豪门总裁\",\"url\":\"https://novel.cooks.tw/api/novel/list?sortid=33&page={{page}}&limit=20&lang=zh-CN\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.33}},\n  {\"title\":\"民国言情\",\"url\":\"https://novel.cooks.tw/api/novel/list?sortid=34&page={{page}}&limit=20&lang=zh-CN\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.33}}\n]",
+  "header": "{\"User-Agent\":\"Mozilla/5.0 (Linux; Android 12; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36\",\"Accept\":\"application/json, text/plain, */*\",\"Accept-Language\":\"zh-CN,zh;q=0.9\",\"Referer\":\"https://novel.cooks.tw/\"}",
+  "lastUpdateTime": 1784780400000,
+  "respondTime": 180000,
+  "ruleBookInfo": {
+    "author": "$.data.author",
+    "coverUrl": "$.data.articleid\n<js>var id=String(result||'').replace(/\\D/g,'');id?'https://pic.cooks.tw/'+Math.floor(parseInt(id,10)/1000)+'/'+id+'/'+id+'s.webp':'';</js>",
+    "intro": "$.data.intro",
+    "kind": "$.data.tag_list[*].keyword",
+    "lastChapter": "$.data.lastchapter",
+    "name": "$.data.articlename",
+    "status": "$.data.fullflag\n<js>String(result)=='1'?'完结':'连载';</js>",
+    "tocUrl": "$.data.articleid\n<js>'https://novel.cooks.tw/api/chapter/list/'+result+'?lang=zh-CN';</js>"
+  },
+  "ruleContent": {
+    "content": "$.data.content\n<js>String(result||'').replace(/<br\\s*\\/?>/gi,'\\n').replace(/<p[^>]*>/gi,'\\n').replace(/<\\/p>/gi,'\\n').replace(/<[^>]+>/g,'').replace(/&nbsp;/g,' ').replace(/&amp;/g,'&').replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&#39;/g,\"'\").replace(/&quot;/g,'\"').replace(/\\r/g,'').replace(/[ \\t]+\\n/g,'\\n').replace(/\\n{3,}/g,'\\n\\n').trim();</js>"
+  },
+  "ruleExplore": {
+    "author": "$.author",
+    "bookList": "$.data.data[*]",
+    "bookUrl": "$.articleid\n<js>'https://novel.cooks.tw/api/novel/detail/'+result+'?lang=zh-CN';</js>",
+    "coverUrl": "$.articleid\n<js>var id=String(result||'').replace(/\\D/g,'');id?'https://pic.cooks.tw/'+Math.floor(parseInt(id,10)/1000)+'/'+id+'/'+id+'s.webp':'';</js>",
+    "intro": "$.intro",
+    "name": "$.articlename"
+  },
+  "ruleSearch": {
+    "author": "$.author",
+    "bookList": "$.data.items[*]",
+    "bookUrl": "$.articleid\n<js>'https://novel.cooks.tw/api/novel/detail/'+result+'?lang=zh-CN';</js>",
+    "coverUrl": "$.articleid\n<js>var id=String(result||'').replace(/\\D/g,'');id?'https://pic.cooks.tw/'+Math.floor(parseInt(id,10)/1000)+'/'+id+'/'+id+'s.webp':'';</js>",
+    "intro": "$.intro",
+    "kind": "$.chapters\n<js>result?'共 '+result+' 章':'';</js>",
+    "name": "$.articlename"
+  },
+  "ruleToc": {
+    "chapterList": "$.data[*]",
+    "chapterName": "$.chaptername",
+    "chapterUrl": "$.chapterid\n<js>var m=String(baseUrl||'').match(/list\\/(\\d+)/);var aid=m?m[1]:'';'https://novel.cooks.tw/api/chapter/content/'+aid+'/'+result+'?lang=zh-CN';</js>"
+  },
+  "searchUrl": "https://novel.cooks.tw/api/novel/search?q={{encodeURIComponent(key)}}&page={{page}}&limit=20&lang=zh-CN,{\"retry\":2,\"timeout\":45000}",
+  "weight": 0
+}
