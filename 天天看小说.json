@@ -1,0 +1,56 @@
+[
+  {
+    "bookSourceComment": "//by gamesofts",
+    "bookSourceName": "天天看小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://ttks.tw",
+    "bookUrlPattern": "https://ttks\\.tw/novel/chapters/.+?/index\\.html",
+    "customOrder": 19,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"小說分類\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"連載\",\"url\":\"https://ttks.tw/novel/class/lianzai/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"玄幻\",\"url\":\"https://ttks.tw/novel/class/xuanhuan/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市\",\"url\":\"https://ttks.tw/novel/class/dushi/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"仙俠\",\"url\":\"https://ttks.tw/novel/class/wuxia/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"言情\",\"url\":\"https://ttks.tw/novel/class/yaniqng/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"遊戲\",\"url\":\"https://ttks.tw/novel/class/youxi/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻\",\"url\":\"https://ttks.tw/novel/class/kehuan/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"懸疑\",\"url\":\"https://ttks.tw/novel/class/kongbu/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"靈異\",\"url\":\"https://ttks.tw/novel/class/lingyi/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"軍事\",\"url\":\"https://ttks.tw/novel/class/lishi/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"現言\",\"url\":\"https://ttks.tw/novel/class/tongren/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"其它\",\"url\":\"https://ttks.tw/novel/class/qita/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+    "lastUpdateTime": "1784807193166",
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "author": "tag.li.2@a@text",
+      "coverUrl": "class.novel_info@amp-img@src",
+      "intro": "p@text",
+      "kind": "tag.li.2@text##類別：",
+      "lastChapter": "class.near_chapter@all",
+      "name": "h1@text",
+      "tocUrl": "baseUrl"
+    },
+    "ruleContent": {
+      "content": "class.content@p@textNodes",
+      "replaceRegex": "##【記住.*超靠譜 】|天天看小說.+超靠譜"
+    },
+    "ruleExplore": {
+      "bookList": "@XPath://div[./a/amp-img and ./ul]",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "amp-img@src",
+      "name": "h3@text",
+      "author": "tag.li.1@text##作者：",
+      "intro": "tag.li.2@text##簡介：",
+      "kind": "tag.li.2@text##類別：",
+      "lastChapter": "tag.li.3@text##狀態："
+    },
+    "ruleSearch": {
+      "bookList": "@CSS:div.novel_cell||body",
+      "bookUrl": "@CSS:ul li:first-child a[href*=\"/novel/chapters/\"]@href@js:result ? result : baseUrl",
+      "coverUrl": "class.novel_info@amp-img@src||class.novel_info@img@src||amp-img@src||img@src",
+      "name": "h1@text||h3@text",
+      "author": "@CSS:ul li:nth-of-type(2)@text||div.novel_info li:nth-of-type(3) a@text##作者：",
+      "intro": "@CSS:p@text||ul li:nth-of-type(3)@text##簡介：",
+      "kind": "@CSS:div.novel_info li:nth-of-type(3)@text##類別："
+    },
+    "ruleToc": {
+      "chapterList": "class.chapters_frame.1@class.pure-g.0@class.chapter_cell@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://ttks.tw/novel/search?searchkey={{key}},{\"charset\":\"UTF-8\",\"headers\":{\"Referer\":\"https://ttks.tw/\"}}",
+    "weight": 0,
+    "enabledCookieJar": true,
+    "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Mobile Safari/537.36\", \"Accept\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8\", \"Accept-Language\": \"zh-CN,zh-TW;q=0.9,zh;q=0.8\", \"Referer\": \"https://ttks.tw/\", \"Cache-Control\": \"no-cache\"}"
+  }
+]
