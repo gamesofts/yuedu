@@ -34,7 +34,7 @@
     "lastChapter": "tag.li.3@text##狀態："
   },
   "ruleSearch": {
-    "bookList": "@CSS:div.novel_cell||body",
+    "bookList": "@CSS:div.novel_cell",
     "bookUrl": "@CSS:ul li:first-child a[href*=\"/novel/chapters/\"]@href@js:result ? result : baseUrl",
     "coverUrl": "class.novel_info@amp-img@src||class.novel_info@img@src||amp-img@src||img@src",
     "name": "h1@text||h3@text",
