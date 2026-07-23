@@ -1,0 +1,63 @@
+{
+   "bookSourceComment" : "//by gamesofts",
+   "bookSourceName" : "笔趣阁365",
+   "bookSourceType" : 0,
+   "bookSourceUrl" : "https://m.biquge365.net/",
+   "bookUrlPattern" : "https://m\\.biquge365\\.net/(?:shu|book)/\\d+(?:_\\d+)?/",
+   "customOrder" : 0,
+   "enabled" : true,
+   "enabledCookieJar" : true,
+   "enabledExplore" : true,
+   "exploreUrl" : "[{\"title\":\"分类\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"玄幻魔法\",\"url\":\"/sort/1_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"仙侠修真\",\"url\":\"/sort/2_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"都市言情\",\"url\":\"/sort/3_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"网游动漫\",\"url\":\"/sort/4_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻小说\",\"url\":\"/sort/5_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"恐怖灵异\",\"url\":\"/sort/6_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"历史军事\",\"url\":\"/sort/7_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"其他类型\",\"url\":\"/sort/8_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"排行\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"玄幻魔法\",\"url\":\"/top/1_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"仙侠修真\",\"url\":\"/top/2_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"都市言情\",\"url\":\"/top/3_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"网游动漫\",\"url\":\"/top/4_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻小说\",\"url\":\"/top/5_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"恐怖灵异\",\"url\":\"/top/6_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"历史军事\",\"url\":\"/top/7_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"其他类型\",\"url\":\"/top/8_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"全本\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"玄幻魔法\",\"url\":\"/full/1/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"仙侠修真\",\"url\":\"/full/2/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"都市言情\",\"url\":\"/full/3/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"网游动漫\",\"url\":\"/full/4/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻小说\",\"url\":\"/full/5/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"恐怖灵异\",\"url\":\"/full/6/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"历史军事\",\"url\":\"/full/7/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"其他类型\",\"url\":\"/full/8/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+   "header" : "{\"User-Agent\":\"Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36\",\"Accept-Language\":\"zh-CN,zh;q=0.9\"}",
+   "lastUpdateTime" : 1784810430484,
+   "respondTime" : 180000,
+   "ruleBookInfo" : {
+      "author" : "ul.0@li.0@text##作者：",
+      "coverUrl" : "img@src",
+      "init" : ".menu",
+      "intro" : ".jianjie@p@text",
+      "kind" : "ul.0@li.1:2@text##类型：|状态：",
+      "lastChapter" : "ul.1@li.0@a@text",
+      "name" : "h1@text",
+      "tocUrl" : "<js>\nvar u = String(baseUrl);\nvar m = u.match(/\\/(?:shu|book)\\/(\\d+)(?:_\\d+)?\\//);\nvar toc = '';\nif (m) toc = 'https://www.biquge365.net/newbook/' + m[1] + '/';\ntoc;\n</js>",
+      "updateTime" : "ul.0@li.3@text##更新：",
+      "wordCount" : ""
+   },
+   "ruleContent" : {
+      "content" : "#txt@html",
+      "nextContentUrl" : "a:contains(下一页)@href",
+      "replaceRegex" : "##下载APP，无广告、完整阅读|一秒记住〖笔趣阁〗|biquge365\\.net，更新快，无弹窗！|^\\s*第.*?\\(第\\d+/\\d+页\\)\\s*$"
+   },
+   "ruleExplore" : {
+      "author" : "span.zuo@a@text||span.1@text||.s5@text",
+      "bookList" : ".liebiao2 li||.liebiao1 li||.l li||body > div.menu > div > ul > li",
+      "bookUrl" : "span.name@a@href||a.0@href||.s2@a@href",
+      "intro" : "",
+      "kind" : "span.lei@a@text||span.2@text||.s1@text",
+      "lastChapter" : "span.jie@a@text||span.3@text||.s3@text",
+      "name" : "span.name@a@text||span.0@text||.s2@a@text||a.0@text",
+      "updateTime" : "span.time@text"
+   },
+   "ruleReview" : {},
+   "ruleSearch" : {
+      "author" : "span.1@text",
+      "bookList" : "<js>if(String(result).match(/搜索间隔15秒/)){java.toast(\"搜索间隔15秒，请稍后再试\");} result;</js>\n.liebiao2 li",
+      "bookUrl" : "a.0@href",
+      "intro" : "",
+      "kind" : "span.2@text",
+      "lastChapter" : "span.3@text",
+      "name" : "span.0@text||a.0@text"
+   },
+   "ruleToc" : {
+      "chapterList" : "body > div.menu > div.border > ul > li > a||div.menu div.border ul li a",
+      "chapterName" : "text",
+      "chapterUrl" : "href",
+      "isVip" : "",
+      "isVolume" : "",
+      "nextTocUrl" : "",
+      "updateTime" : ""
+   },
+   "searchUrl" : "/waps.php,{\"body\":\"s={{key}}&submit=\",\"method\":\"POST\"}",
+   "weight" : 0
+}
