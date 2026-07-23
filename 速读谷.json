@@ -37,7 +37,7 @@
     "coverUrl": "img@src",
     "kind": "span@text",
     "lastChapter": "li.0@text",
-    "name": "h3@text"
+    "name": "a.1@text"
   },
   "ruleToc": {
     "chapterList": "<js>\nvar html = String(result);\nvar root = String(baseUrl).replace(/#.*$/, '').replace(/p-\\d+\\.html$/, '');\nif (root.charAt(root.length - 1) !== '/') root += '/';\nvar maxPage = 1, m;\nvar pageRe = /<option[^>]+value=[\"'](\\d+)[\"'][^>]*>/gi;\nwhile ((m = pageRe.exec(html)) !== null) {\n    var pageNo = parseInt(m[1], 10);\n    if (pageNo > maxPage) maxPage = pageNo;\n}\nvar extra = '';\nfor (var page = 2; page <= maxPage; page++) {\n    var more = java.ajax(root + 'p-' + page + '.html');\n    if (more) {\n        var part = String(more).match(/<div[^>]+id=[\"']list[\"'][^>]*>[\\s\\S]*?<ul[^>]*>([\\s\\S]*?)<\\/ul>/i);\n        if (part) extra += part[1];\n    }\n}\nif (extra) {\n    var listStart = html.search(/<div[^>]+id=[\"']list[\"'][^>]*>/i);\n    var listEnd = html.indexOf('</ul>', listStart);\n    if (listEnd >= 0) html = html.slice(0, listEnd) + extra + html.slice(listEnd);\n}\nhtml;\n</js>\n@CSS:#list li a",
